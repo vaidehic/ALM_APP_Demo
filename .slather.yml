@@ -2,7 +2,8 @@
 
 # Specify the Xcode project or workspace path
 # Replace 'ALM APP Dem0.xcodeproj' with the actual name and path of your Xcode project file
-xcodeproj: /Users/administrator/Desktop/vaidehi/ALM\ APP\ Dem0/ALM\ APP\ Dem0.xcodeproj/
+#xcodeproj: /Users/administrator/Desktop/vaidehi/ALM\ APP\ Dem0/ALM\ APP\ Dem0.xcodeproj/
+xcodeproj: /Users/administrator/Desktop/vaidehi/ALM\ APP\ Dem0/ALM\ APP\ Dem0.xcodeproj
 
 # Specify the scheme(s) you want to analyze for code coverage
 # Replace 'YourSchemeName' with the name(s) of the scheme(s) you use for testing
