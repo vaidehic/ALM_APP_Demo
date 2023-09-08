@@ -1,0 +1,31 @@
+# .slather.yml
+
+# Specify the Xcode project or workspace path
+# Replace 'ALM APP Dem0.xcodeproj' with the actual name and path of your Xcode project file
+xcodeproj: /Users/administrator/Desktop/vaidehi/ALM\ APP\ Dem0/ALM\ APP\ Dem0.xcodeproj/
+
+# Specify the scheme(s) you want to analyze for code coverage
+# Replace 'YourSchemeName' with the name(s) of the scheme(s) you use for testing
+scheme:
+ - /Users/administrator/Desktop/vaidehi/ALM\ APP\ Dem0/ALM\ APP\ Dem0/
+ # - ALM\ APP\ Dem0UITests/
+
+# Specify the output format for the coverage report
+# You can choose from 'html', 'cobertura', 'json', or 'plist'
+output_format:cobertura
+
+# Specify the output directory for the coverage report
+# The report will be generated in the 'coverage_output' folder in this example
+output_directory: coverage_output
+
+# Optionally, you can exclude certain files or directories from the coverage analysis
+excluded_files:
+  - YourExcludedFile.swift
+  - YourExcludedFolder/**
+
+# You can also provide any other Slather options or flags you need, such as threshold values, etc.
+# For example:
+coverage_service: 'local'
+coverage_cobertura: 'coverage.xml'
+
+# Additional options can be included as needed based on your specific requirements
