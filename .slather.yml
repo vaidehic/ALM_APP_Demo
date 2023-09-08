@@ -12,7 +12,7 @@ scheme:
 
 # Specify the output format for the coverage report
 # You can choose from 'html', 'cobertura', 'json', or 'plist'
-output_format:cobertura
+output_format: cobertura
 
 # Specify the output directory for the coverage report
 # The report will be generated in the 'coverage_output' folder in this example
