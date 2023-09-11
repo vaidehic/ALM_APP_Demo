@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C352D6962AAF0D2100E65F8A /* ALM APP Dem0.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALM APP Dem0.xctestplan"; sourceTree = "<group>"; };
 		C3B582642AAB4E3700322E27 /* ALM APP Dem0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALM APP Dem0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B582672AAB4E3700322E27 /* ALM_APP_Dem0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALM_APP_Dem0App.swift; sourceTree = "<group>"; };
 		C3B582692AAB4E3700322E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		C3B5825B2AAB4E3700322E27 = {
 			isa = PBXGroup;
 			children = (
+				C352D6962AAF0D2100E65F8A /* ALM APP Dem0.xctestplan */,
 				C3B582662AAB4E3700322E27 /* ALM APP Dem0 */,
 				C3B582772AAB4E3B00322E27 /* ALM APP Dem0Tests */,
 				C3B582812AAB4E3B00322E27 /* ALM APP Dem0UITests */,

@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "964DB48F-AF88-4212-A934-95D6A03A055D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ALM APP Dem0.xcodeproj",
+      "identifier" : "C3B582632AAB4E3700322E27",
+      "name" : "ALM APP Dem0"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ALM APP Dem0.xcodeproj",
+        "identifier" : "C3B582732AAB4E3B00322E27",
+        "name" : "ALM APP Dem0Tests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ALM APP Dem0.xcodeproj",
+        "identifier" : "C3B5827D2AAB4E3B00322E27",
+        "name" : "ALM APP Dem0UITests"
+      }
+    }
+  ],
+  "version" : 1
+}
