@@ -32,5 +32,19 @@ final class ALM_APP_Dem0Tests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    func helloWorld() -> String {
+            return "Hello, World!"
+        }
 
+        // Unit test for the "Hello World" function
+        func testHelloWorld() {
+            // Arrange
+            let expectedResult = "Hello, World!"
+            
+            // Act
+            let result = helloWorld()
+            
+            // Assert
+            XCTAssertEqual(result, expectedResult, "Expected: \(expectedResult), but got: \(result)")
+        }
 }
