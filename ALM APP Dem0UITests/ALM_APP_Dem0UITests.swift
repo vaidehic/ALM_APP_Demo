@@ -38,4 +38,20 @@ final class ALM_APP_Dem0UITests: XCTestCase {
             }
         }
     }
+    func helloWorld() -> String {
+            return "Hello, World!"
+        }
+
+        // Unit test for the "Hello World" function
+        func testHelloWorld() {
+            // Arrange
+            let expectedResult = "Hello, World!"
+            
+            // Act
+            let result = helloWorld()
+            
+            // Assert
+            XCTAssertEqual(result, expectedResult, "Expected: \(expectedResult), but got: \(result)")
+        }
+    
 }
