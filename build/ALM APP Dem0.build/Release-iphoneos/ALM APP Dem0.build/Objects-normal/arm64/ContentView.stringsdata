@@ -1,0 +1,12 @@
+{
+  "source": "/Users/administrator/Desktop/vaidehi/ALM APP Dem0/ALM APP Dem0/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, world!"
+      }
+    ]
+  },
+  "version": 1
+}

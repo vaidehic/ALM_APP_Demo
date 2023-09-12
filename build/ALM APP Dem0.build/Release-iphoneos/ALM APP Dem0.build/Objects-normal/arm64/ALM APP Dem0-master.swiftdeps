@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "f5f5b802a0b2f891cf839d50ef89c2a54a0e8466631552138efb8fdffa2a1795"
+build_start_time: [1694496030, 245964000]
+build_end_time: [1694496135, 992310000]
+inputs:
+  "/Users/administrator/Desktop/vaidehi/ALM APP Dem0/ALM APP Dem0/ALM_APP_Dem0App.swift": [1694176951, 914645876]
+  "/Users/administrator/Desktop/vaidehi/ALM APP Dem0/ALM APP Dem0/ContentView.swift": [1694176951, 919864218]
