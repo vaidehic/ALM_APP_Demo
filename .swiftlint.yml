@@ -1,0 +1,11 @@
+swift_version: 5.0
+type_name:
+  allowed_symbols: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"
+# Line length
+line_length:
+  warning: 120
+  error: 150
+
+opt_in_rules:
+     - indentation_width
+     - operator_usage_whitespace
