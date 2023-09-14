@@ -12,19 +12,10 @@
 		C3B5826C2AAB4E3B00322E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5826B2AAB4E3B00322E27 /* Assets.xcassets */; };
 		C3B5826F2AAB4E3B00322E27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B5826E2AAB4E3B00322E27 /* Preview Assets.xcassets */; };
 		C3B582792AAB4E3B00322E27 /* ALM_APP_Dem0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B582782AAB4E3B00322E27 /* ALM_APP_Dem0Tests.swift */; };
-		C3B582832AAB4E3B00322E27 /* ALM_APP_Dem0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B582822AAB4E3B00322E27 /* ALM_APP_Dem0UITests.swift */; };
-		C3B582852AAB4E3B00322E27 /* ALM_APP_Dem0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B582842AAB4E3B00322E27 /* ALM_APP_Dem0UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C3B582752AAB4E3B00322E27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3B5825C2AAB4E3700322E27 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C3B582632AAB4E3700322E27;
-			remoteInfo = "ALM APP Dem0";
-		};
-		C3B5827F2AAB4E3B00322E27 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3B5825C2AAB4E3700322E27 /* Project object */;
 			proxyType = 1;
@@ -42,9 +33,6 @@
 		C3B5826E2AAB4E3B00322E27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3B582742AAB4E3B00322E27 /* ALM APP Dem0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALM APP Dem0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B582782AAB4E3B00322E27 /* ALM_APP_Dem0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALM_APP_Dem0Tests.swift; sourceTree = "<group>"; };
-		C3B5827E2AAB4E3B00322E27 /* ALM APP Dem0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALM APP Dem0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3B582822AAB4E3B00322E27 /* ALM_APP_Dem0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALM_APP_Dem0UITests.swift; sourceTree = "<group>"; };
-		C3B582842AAB4E3B00322E27 /* ALM_APP_Dem0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALM_APP_Dem0UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3B5827B2AAB4E3B00322E27 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +59,6 @@
 				C352D6962AAF0D2100E65F8A /* ALM APP Dem0.xctestplan */,
 				C3B582662AAB4E3700322E27 /* ALM APP Dem0 */,
 				C3B582772AAB4E3B00322E27 /* ALM APP Dem0Tests */,
-				C3B582812AAB4E3B00322E27 /* ALM APP Dem0UITests */,
 				C3B582652AAB4E3700322E27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +68,6 @@
 			children = (
 				C3B582642AAB4E3700322E27 /* ALM APP Dem0.app */,
 				C3B582742AAB4E3B00322E27 /* ALM APP Dem0Tests.xctest */,
-				C3B5827E2AAB4E3B00322E27 /* ALM APP Dem0UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,15 +97,6 @@
 				C3B582782AAB4E3B00322E27 /* ALM_APP_Dem0Tests.swift */,
 			);
 			path = "ALM APP Dem0Tests";
-			sourceTree = "<group>";
-		};
-		C3B582812AAB4E3B00322E27 /* ALM APP Dem0UITests */ = {
-			isa = PBXGroup;
-			children = (
-				C3B582822AAB4E3B00322E27 /* ALM_APP_Dem0UITests.swift */,
-				C3B582842AAB4E3B00322E27 /* ALM_APP_Dem0UITestsLaunchTests.swift */,
-			);
-			path = "ALM APP Dem0UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,24 +137,6 @@
 			productReference = C3B582742AAB4E3B00322E27 /* ALM APP Dem0Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C3B5827D2AAB4E3B00322E27 /* ALM APP Dem0UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3B5828E2AAB4E3B00322E27 /* Build configuration list for PBXNativeTarget "ALM APP Dem0UITests" */;
-			buildPhases = (
-				C3B5827A2AAB4E3B00322E27 /* Sources */,
-				C3B5827B2AAB4E3B00322E27 /* Frameworks */,
-				C3B5827C2AAB4E3B00322E27 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3B582802AAB4E3B00322E27 /* PBXTargetDependency */,
-			);
-			name = "ALM APP Dem0UITests";
-			productName = "ALM APP Dem0UITests";
-			productReference = C3B5827E2AAB4E3B00322E27 /* ALM APP Dem0UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +151,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					C3B582732AAB4E3B00322E27 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = C3B582632AAB4E3700322E27;
-					};
-					C3B5827D2AAB4E3B00322E27 = {
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = C3B582632AAB4E3700322E27;
 					};
@@ -223,7 +171,6 @@
 			targets = (
 				C3B582632AAB4E3700322E27 /* ALM APP Dem0 */,
 				C3B582732AAB4E3B00322E27 /* ALM APP Dem0Tests */,
-				C3B5827D2AAB4E3B00322E27 /* ALM APP Dem0UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,13 +186,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C3B582722AAB4E3B00322E27 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3B5827C2AAB4E3B00322E27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +212,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3B5827A2AAB4E3B00322E27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3B582832AAB4E3B00322E27 /* ALM_APP_Dem0UITests.swift in Sources */,
-				C3B582852AAB4E3B00322E27 /* ALM_APP_Dem0UITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +219,6 @@
 			isa = PBXTargetDependency;
 			target = C3B582632AAB4E3700322E27 /* ALM APP Dem0 */;
 			targetProxy = C3B582752AAB4E3B00322E27 /* PBXContainerItemProxy */;
-		};
-		C3B582802AAB4E3B00322E27 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C3B582632AAB4E3700322E27 /* ALM APP Dem0 */;
-			targetProxy = C3B5827F2AAB4E3B00322E27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -333,6 +259,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -393,6 +320,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -526,48 +454,6 @@
 			};
 			name = Release;
 		};
-		C3B5828F2AAB4E3B00322E27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "almapp.cybage.com.ALM-APP-Dem0UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ALM APP Dem0";
-			};
-			name = Debug;
-		};
-		C3B582902AAB4E3B00322E27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VB78Y67GX6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ALM APP Dem0";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ALM APP Dem0";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -594,15 +480,6 @@
 			buildConfigurations = (
 				C3B5828C2AAB4E3B00322E27 /* Debug */,
 				C3B5828D2AAB4E3B00322E27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C3B5828E2AAB4E3B00322E27 /* Build configuration list for PBXNativeTarget "ALM APP Dem0UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3B5828F2AAB4E3B00322E27 /* Debug */,
-				C3B582902AAB4E3B00322E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
