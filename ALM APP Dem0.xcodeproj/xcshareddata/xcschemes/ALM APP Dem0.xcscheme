@@ -45,7 +45,7 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
@@ -80,17 +80,6 @@
                BlueprintIdentifier = "C3B582732AAB4E3B00322E27"
                BuildableName = "ALM APP Dem0Tests.xctest"
                BlueprintName = "ALM APP Dem0Tests"
-               ReferencedContainer = "container:ALM APP Dem0.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3B5827D2AAB4E3B00322E27"
-               BuildableName = "ALM APP Dem0UITests.xctest"
-               BlueprintName = "ALM APP Dem0UITests"
                ReferencedContainer = "container:ALM APP Dem0.xcodeproj">
             </BuildableReference>
          </TestableReference>
